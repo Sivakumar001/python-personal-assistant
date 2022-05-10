@@ -72,6 +72,23 @@ Either you can use CLI or you can use IDE (like PyCharm)
 
 ## Installation
 
+Download [Anaconda](https://www.anaconda.com/products/distribution).
+
+Then Enter Anaconda Console and Create a new python environment and activate the environment.
+```cmd
+conda create -n pa python=3.8
+conda activate pa
+```
+Now install the requirements in the `requirements.txt` file
+```cmd
+pip install requirements.txt
+```
+
+After installing every requirements in the given file run the python file
+```cmd
+python PAwithgui.py
+```
+
 ### For Development Version
 
 - Press the Fork button, to save a copy of this repository on your GitHub account
@@ -80,7 +97,7 @@ Either you can use CLI or you can use IDE (like PyCharm)
 - Before pushing code to repository makes sure to pull the latest remote repository by `git remote add upstream https://github.com/Umesh-01/Python-Assistant.git` and `git pull upstream main`, and resolve any merge conflict if exists
 
 ### For Non-Development Version
-- Clone this repository by typing git clone `https://github.com/Umesh-01/Python-Assistant.git` command in git bash<br>
+- Clone this repository by typing git clone `https://github.com/Sivakumar001/python-personal-ssistant.git` command in git bash<br>
 `OR` <br>
 Download this repository by clicking on Download ZIP inside the Code button 
 
